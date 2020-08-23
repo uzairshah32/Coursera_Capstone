@@ -1,4 +1,4 @@
-# Coursera_Capstone
+# Car Accident Severity Machine Learning Analysis (Coursera Capstone)
 This is an Applied Data Science Machine Learning Capstone Project for IBM Data Science Professional Certification.
 
 ## 1. Introduction
