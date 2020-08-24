@@ -16,11 +16,12 @@ The world as a whole suffers due to car accidents, including the USA. National H
 The data being used for this machine learning model is regarding car accident severity in Seattle, Washington. The dataset has a total observations of 194673 with variation in number of observations for every feature, hence an unbalanced dataset. The data type within the data set varies from being object, int64 and float64. The variables chosen from within the datase will be used to predict whether or not, if an accident occurs, an accident will lead to physical injury or property damage only. (https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv)
 
 #### Independant Variables
-- INATTENTIONIND: Whether or not collision was due to inattention (Text, Yes/No)
-- UNDERINFL: Whether or not a driver involved was under the influence of drugs or alcohol (Text, Yes/No)
-- WEATHER: The weather conditions during the time of the collision (Text, Overcast/Rain/Clear..)
+- INATTENTIONIND: Whether or not collision was due to inattention (Yes/No)
+- UNDERINFL: Whether or not a driver involved was under the influence of drugs or alcohol (Yes/No)
+- WEATHER: The weather conditions during the time of the collision (Overcast/Rain/Clear..)
 - ROADCOND: The condition of the road during the collision (Wet/Dry..)
 - LIGHTCOND: The light conditions during the collision (Lights On/Dark with light on/Dark with lights off..)
+- SPEEDING: Whether or not the car was above the speed limit at the time of collision (Yes/No)
 
 #### Target Variable
 - SEVERITYCODE: A code that corresponds to the severity of the collision
