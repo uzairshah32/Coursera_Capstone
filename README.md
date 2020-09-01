@@ -35,17 +35,17 @@ As mentioned earlier, a number ‘0’ as an element of an independent variable 
   
 ## 4. Results
 
-### Decision Tree Classification Report
+#### Decision Tree Classification Report
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/DT%20Classification%20Report.PNG" width="700"/></p>
 
-### Decision Tree Confusion Matrix
-<p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/DT%20Confusion%20Matrix.png" width="600"/></p>
+#### Decision Tree Confusion Matrix
+<p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/DT%20Confusion%20Matrix.png" width="500"/></p>
 
-### Logistic Regression Classification Report
+#### Logistic Regression Classification Report
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/LR%20Classification%20Report.PNG" width="700"/></p>
 
-### Logistic Regression Confusion Matrix
-<p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/LR%20Confussion%20Matrix.jpg" width="600"/></p>
+#### Logistic Regression Confusion Matrix
+<p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/LR%20Confussion%20Matrix.jpg" width="500"/></p>
 
 ## Sources
   - https://www.asirt.org/safe-travel/road-safety-facts/
