@@ -35,6 +35,7 @@ As mentioned earlier, a number ‘0’ as an element of an independent variable 
 - k-Nearest Neighbor
   
 ## 4. Results
+The results of each of the three models varied; one excelled at predicting the positives accurately while the other predicted the negativves better. It was evident by the results that the predictions could have been improved if there was a more complete dataset at hand.
 
 #### Decision Tree Classification Report
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/DT%20Classification%20Report.PNG" width="700"/></p>
