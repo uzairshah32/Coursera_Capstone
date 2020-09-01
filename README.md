@@ -35,7 +35,10 @@ As mentioned earlier, a number ‘0’ as an element of an independent variable 
 - k-Nearest Neighbor
   
 ## 4. Results
-The results of each of the three models varied; one excelled at predicting the positives accurately while the other predicted the negativves better. It was evident by the results that the predictions could have been improved if there was a more complete dataset at hand.
+The results of each of the three models had variations among them, one worked very well at predicting the positives accurately while the other predicted the negativves better. 
+
+### Decision Tree
+The criterion chosen for the classifier was ‘entropy’ and the max depth was ‘6’.
 
 #### Decision Tree Classification Report
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/DT%20Classification%20Report.PNG" width="700"/></p>
@@ -43,11 +46,17 @@ The results of each of the three models varied; one excelled at predicting the p
 #### Decision Tree Confusion Matrix
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/DT%20Confusion%20Matrix.png" width="500"/></p>
 
+### Logistic Regression 
+The C used for regularization strength was ‘0.01’ whereas the solver used was ‘liblinear’.
+
 #### Logistic Regression Classification Report
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/LR%20Classification%20Report.PNG" width="700"/></p>
 
 #### Logistic Regression Confusion Matrix
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/LR%20Confussion%20Matrix.jpg" width="500"/></p>
+
+### k-Nearest Neighbor
+The best K, as shown below, for the model where the highest elbow bend exists is at 4. 
 
 #### Choosing the best K
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/Best%20KNN%20value.jpeg" width="500"/></p>
