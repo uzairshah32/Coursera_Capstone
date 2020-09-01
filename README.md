@@ -32,6 +32,7 @@ As mentioned earlier, a number ‘0’ as an element of an independent variable 
 #### Machine Learning Models
 - Logistic Regression
 - Decision Tree Analysis
+- k-Nearest Neighbor
   
 ## 4. Results
 
@@ -47,7 +48,25 @@ As mentioned earlier, a number ‘0’ as an element of an independent variable 
 #### Logistic Regression Confusion Matrix
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/LR%20Confussion%20Matrix.jpg" width="500"/></p>
 
+#### Choosing the best K
+<p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/Best%20KNN%20value.jpeg" width="500"/></p>
+
+#### k-Nearest Neighbor Classification Report
+<p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/KNN%20Classification.PNG" width="500"/></p>
+
+## 5. Model Accuracy
+<p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/Model%20Accuracy.PNG" width="500"/></p>
+
+## 6. Conclusion
+When comparing all the models by their f1-scores, Precision and Recall, we can have a clearer picture in terms of the accuracy of the three models individually as a whole and how well they perform for each output of the target variable. When comparing these scores, we can see that the f1-score is highest for k-Nearest Neighbor at 0.75. However, later when we compare the precision and recall for each of the model, we can see that the k-Nearest Neighbor model performs poorly in the precision of 1 at 0.08. The variance is too high for the model to be selected as a viable option. When looking at the other two models, we can see that the Decision Tree has a more balanced precision for 0 and 1. Whereas, the Logistic Regression is more balanced when it comes to recall of 0 and 1. Furthermore, the average f1-score of the two models are very close but for the Logistic Regression it is higher by 0.04. It can be concluded that the both the models can be used side by side for the best performance. 
+
+## 7. Recommendations
+After assessing the data and the output of the Machine Learning models, a few recommendations can be made for the stakeholders. The developmental body for Seattle city can assess how much of these accidents have occurred in a place where road or light conditions were not ideal for that specific area and could launch development projects for those areas where most severe accidents take place in order to minimize the effects of these two factors. Whereas, the car drivers could also use this data to assess when to take extra precautions on the road under the given circumstances of light condition, road condition and weather, in order to avoid a severe accident, if any.
+
 ## Sources
-  - https://www.asirt.org/safe-travel/road-safety-facts/
-  - https://www.nhtsa.gov/
-  - https://wsdot.wa.gov/
+  - https://www.macrotrends.net/cities/23140/seattle/population#:~:text=The%20current%20metro%20area%20population,a%201.2%25%20increase%20from%202017.
+- https://www.seattletimes.com/seattle-news/data/housing-cars-or-housing-people-debate-rages-as-number-of-cars-in-seattle-hits-new-high/#:~:text=As%20of%202016%2C%20the%20total,are%20the%20number%20of%20cars.
+- https://www.asirt.org/safe-travel/road-safety-facts/
+- https://www.nhtsa.gov/
+- https://wsdot.wa.gov/
+
