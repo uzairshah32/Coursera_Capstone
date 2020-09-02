@@ -35,7 +35,7 @@ As mentioned earlier, a number *0* as an element of an independent variable is s
 - **k-Nearest Neighbor:** K nearest neighbors is a simple algorithm that stores all available cases and classifies new cases based on a similarity measure (based on distance)
   
 ## 4. Results
-The results of each of the three models had variations among them, one worked very well at predicting the positives accurately while the other predicted the negativves better. 
+The results of each of the three models had variations among them, one worked very well at predicting the positives accurately while the other predicted the negatives better. 
 
 ### Decision Tree
 The criterion chosen for the classifier was *entropy* and the max depth was *6*.
