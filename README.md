@@ -65,9 +65,9 @@ The best K, as shown below, for the model where the highest elbow bend exists is
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/KNN%20Classification.PNG" width="500"/></p>
 
 ## 5. Model Accuracy
-**Precision:** Precision refers to the percentage of results which are relevant, in simpler terms it can be seen as how many of the selected items from the model are relevant. Mathematically, it is calculated by dividing true positives by true positive and false positive
-**Recall:** Recall refers to the percentage of total relevant results correctly classified by the algorithm. In simpler terms, it tells how many relevant items were selected. It is calculated by dividing true positives by true positive and false negative
-**F1-Score:** f1-score is a measure of accuracy of the model, which is the harmonic mean of the model’s precision and recall. Perfect precision and recall is shown by the f1-score as 1, which is the highest value for the f1-score, whereas the lowest possible value is 0 which means that either precision or recall is 0
+- **Precision:** Precision refers to the percentage of results which are relevant, in simpler terms it can be seen as how many of the selected items from the model are relevant. Mathematically, it is calculated by dividing true positives by true positive and false positive
+- **Recall:** Recall refers to the percentage of total relevant results correctly classified by the algorithm. In simpler terms, it tells how many relevant items were selected. It is calculated by dividing true positives by true positive and false negative
+- **F1-Score:** f1-score is a measure of accuracy of the model, which is the harmonic mean of the model’s precision and recall. Perfect precision and recall is shown by the f1-score as 1, which is the highest value for the f1-score, whereas the lowest possible value is 0 which means that either precision or recall is 0
 <p align="center"><img src="https://github.com/uzairshah32/Coursera_Capstone/blob/master/Images/Model%20Accuracy.PNG" width="500"/></p>
 
 ## 6. Conclusion
